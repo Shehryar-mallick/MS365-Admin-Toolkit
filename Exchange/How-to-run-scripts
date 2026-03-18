@@ -1,0 +1,12 @@
+### File: .\ExchangeOnlineArchive.ps1
+
+If you donwloaded the file form the internet it might be marked and cannot be run so run the following command {Optional}
+
+>>> Unblock-File -Path "{FilePath}"
+
+then run the following command
+
+>>> .\ExchangeOnlineArchive.ps1 -UserEmail "{useremail}"
+
+Fill out the creds in the dialoge box, and the script will do the rest.
+
