@@ -7,21 +7,6 @@ Run these command after having the script ready in-order to run it.
 
 ######################################## END ##########################################
 
-### Save copy of Sent and Sent-on-Behalf items of Shared Mailbox
-
-Run these commands before you run the script
-
->>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
->>> Get-ChildItem "C:\Program Files\WindowsPowerShell\Modules\ExchangeOnlineManagement" -Recurse | Unblock-File
-
-And then run the script
-
->>> .\Enable-SharedMailboxSentItemCopy.ps1 -AdminEmail "admin@company.com" -MailboxEmail "shared@company.com"
-
-Note: It take some time for the authentication to go through or it might seem stuck on the power shell, press Enter, or Ctrl + C on the power shell after the authentication popup has closed itself.
-
-######################################## END ##########################################
-
 
 
 
